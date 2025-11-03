@@ -61,3 +61,8 @@ from flask import request
 @app.route('/webhook', methods=['POST'])
 def webhook():
     return '', 200
+
+from flask import request
+@app.route('/webhook', methods=['POST'])
+def webhook():
+    return '', 200
